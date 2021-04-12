@@ -78,7 +78,7 @@ public class MergeSort
 	public static void main(String[] args) 
 	{
 		 MergeSort mg = new MergeSort();
-		 int arr[] = {6,5,12,10,9,1,102};
+		 int arr[] = {6,5,12};
 		 mg.mergeSort(arr, 0, arr.length-1);
 		 printArr(arr);
 	}
